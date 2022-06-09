@@ -1,0 +1,236 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+}
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+.logo{
+	width: 200px;
+	cursor: pointer;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+	
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #008037;
+	text-transform: capitalize;
+	font-size: 21px;
+	font-weight: bold;
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #df0000;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.navbar ul li:hover:after{
+	width: 100%;
+}
+.dp{
+	width: 800px;
+	padding: 5px 150px;
+	position: absolute;
+	right: 560px;
+	bottom: 110px;
+}
+.main-text{
+	font-size: 42px;
+	display: flex;
+	position: absolute;
+	right: 180px;
+	bottom: 380px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #080808;
+}
+.small-main-text{
+	font-size: 17px;
+	display: flex;
+	position: absolute;
+	right: 140px;
+	bottom: 330px;
+	font-family: 'Roboto', sans-serif;
+	color: #080808;
+	font-weight: lighter;
+}
+.button {
+	border: none;
+	background: #008037;
+	color: #fff;
+	padding: 15px 32px;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+.button1{
+	position: absolute;
+	right: 520px;
+	bottom: 230px;
+}
+.button1 a{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+.button2{
+	position: absolute;
+	right: 410px;
+	bottom: 230px;
+}
+.button2 a{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+.button3{
+	position: absolute;
+	right: 255px;
+	bottom: 230px;
+}
+.button3 a{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+.button:hover {
+	background-color: #df0000; 
+	color: #fff;
+}
+.why-us{
+	width: 85%;
+	height: 500px;
+	border: 5px;
+	background-color: #fff;
+	position: absolute;
+	left: 90px;
+	bottom: -400px;
+}
+.why-us h1{
+	text-align: center;
+	font-size: 44px;
+	font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+}
+.trustvol{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	right: 50px;
+	top: 90px;
+}
+.mald{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	right: 430px;
+	top: 90px;
+}
+.waste{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	left: 70px;
+	top: 90px;
+}
+.WR{
+	font-weight: bold;
+	position: absolute;
+	left: 70px;
+	top: 340px;
+}
+.MD{
+	font-weight: bold;
+	position: absolute;
+	right: 400px;
+	top: 340px;
+}
+.TV{
+	font-weight: bold;
+	position: absolute;
+	right: 25px;
+	top: 340px;
+}
+.wrp{
+	width: 150px;
+	text-align: center;
+	position: absolute;
+	left: 110px;
+	top: 390px;
+}
+.mdp{
+	width: 150px;
+	text-align: center;
+	position: absolute;
+	left: 510px;
+	top: 390px;
+}
+.tvp{
+	width: 150px;
+	text-align: center;
+	position: absolute;
+	left: 910px;
+	top: 390px;
+}
+.carousel{
+	width: 85%;
+	height: 185vh;
+	display: flex;
+	background-color: #fff;
+	position: absolute;
+	bottom: -960px;
+	left: 100px;
+}
+.quote{
+	font-size: 44px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #000;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+.card1{
+	position: absolute;
+	left: 12%;
+	top: 10%;
+	box-shadow: 10px 10px 5px 0;
+}
+.card2{
+	position: absolute;
+	right: 12%;
+	top: 10%;
+	box-shadow: 10px 10px 5px 0;
+}
+.card3{
+	position: absolute;
+	left: 12%;
+	bottom: 20%;
+	box-shadow: 10px 10px 5px 0;
+}
+.card4{
+	position: absolute;
+	right: 12%;
+	bottom: 20%;
+	box-shadow: 10px 10px 5px 0;
+}
+ 
+ 

@@ -1,0 +1,203 @@
+@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.imgbx img{
+    width: 45%;
+    height: 100vh;
+    display: flex;
+}
+.contentbx{
+    width: 55%;
+    height: 100vh;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    /*border: 5px solid rebeccapurple;*/
+}
+.contentbx img{
+    width: 28%;
+    height: 28%;
+    /*border: 3px solid rebeccapurple;*/
+    position: absolute;
+    right: 35%;
+    top: -5%;
+}
+.contentbx h1{
+    font-size: 28px;
+    width: 18%;
+    height: 8%;
+    /*border: 3px solid rebeccapurple;*/
+    text-align: center;
+    position: absolute;
+    right: 38%;
+    top: 17%;
+     
+}
+.textbox1{
+    width: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border: 3px solid #008037;
+    border-radius: 50px;
+    position: absolute;
+    top: 25%;
+    right: 22%;
+}
+.textbox1 input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #000;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 10px;
+}
+/*.textbox1 i{
+    width: 20px;
+    float: left;
+    text-align: center;
+}*/
+.textbox2{
+    width: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border: 3px solid #008037;
+    border-radius: 50px;
+    position: absolute;
+    top: 35%;
+    right: 22%;
+}
+.textbox2 input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #000;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 10px;
+}
+/*.textbox2 i{
+    width: 20px;
+    float: left;
+    text-align: center;
+}*/
+.textbox3{
+    width: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border: 3px solid #008037;
+    border-radius: 50px;
+    position: absolute;
+    top: 45%;
+    right: 22%;
+}
+.textbox3 input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #000;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 10px;
+}
+.textbox4{
+    width: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border: 3px solid #008037;
+    border-radius: 50px;
+    position: absolute;
+    top: 55%;
+    right: 22%;
+}
+.textbox4 input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #000;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 10px;
+}
+.textbox5{
+    width: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border: 3px solid #008037;
+    border-radius: 50px;
+    position: absolute;
+    top: 65%;
+    right: 22%;
+}
+.textbox5 input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #000;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 10px;
+}
+.textbox6{
+    width: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border: 3px solid #008037;
+    border-radius: 50px;
+    position: absolute;
+    top: 75%;
+    right: 22%;
+}
+.textbox6 input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #000;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 10px;
+}
+.btn{
+    width: 50%;
+    background-color: #008037;
+    border: 2px solid #008037;
+    border-radius: 50px;
+    color: #fff;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+    position: absolute;
+    top: 85%;
+    right: 22%;
+}
+.login-link{
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 95%;
+    right: 49%;
+}
+.login-link a{
+    color: #008037;
+}
+ 
+ 
+ 
+
